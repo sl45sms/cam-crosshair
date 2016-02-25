@@ -1,6 +1,6 @@
 # cam-crosshair
 overlay crosshair to camera stream
 
-###combile
+###compile
 gcc cam-crosshair.c `pkg-config --libs --cflags opencv` -o cam-crosshair
 ./cam-crosshair
